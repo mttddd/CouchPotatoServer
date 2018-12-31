@@ -13,12 +13,12 @@ log = CPLog(__name__)
 class Base(TorrentProvider):
 
     urls = {
-        'test': 'https://www.torrentleech.org/',
-        'login': 'https://www.torrentleech.org/user/account/login/',
-        'login_check': 'https://torrentleech.org/user/messages',
-        'detail': 'https://www.torrentleech.org/torrent/%s',
-        'search': 'https://www.torrentleech.org/torrents/browse/index/query/%s/categories/%s',
-        'download': 'https://www.torrentleech.org%s',
+    'test': 'https://v4.torrentleech.org/',
+    'login': 'https://v4.torrentleech.org/user/account/login/',
+    'login_check': 'https://torrentleech.org/user/messages',
+    'detail': 'https://v4.torrentleech.org/torrent/%s',
+    'search': 'https://v4.torrentleech.org/torrents/browse/index/query/%s/categories/%s',
+    'download': 'https://v4.torrentleech.org%s',
     }
 
     http_time_between_calls = 1  # Seconds
